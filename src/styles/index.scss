@@ -1,0 +1,40 @@
+@import "./sidebar";
+@import "./reset";
+@import "./dark";
+
+.app-container {
+  padding:20px 30px 0px 30px;
+  box-sizing: border-box;
+  .el-card{
+    padding: 0 30px;
+    border-radius: 10px !important;
+    width: 100%;
+  }
+  .el-dialog{
+    border-radius: 10px;
+  }
+  .el-dialog__header{
+    border-bottom: 1px solid rgba(234, 234, 234, 1);
+    padding-right: 16px;
+    margin-right: 0;
+    font-weight: bold;
+  }
+}
+.search-container {
+  padding: 18px 0 0 10px;
+  margin-bottom: 10px;
+  background-color: var(--el-bg-color-overlay);
+  border: 1px solid var(--el-border-color-light);
+  border-radius: 4px;
+  box-shadow: var(--el-box-shadow-light);
+}
+.el-popup-parent--hidden{
+  width: 100% !important;
+}
+//让滚动条不占宽度
+.scroll-container{
+  overflow-x: hidden; /* 水平方向隐藏滚动条 */
+  overflow-y: auto; /* 垂直方向显示滚动条 */
+  padding-right: 8px; /* 隐藏滚动条占用的宽度 */
+  box-sizing: content-box; /* 让padding-right不会影响内容宽度 */
+}

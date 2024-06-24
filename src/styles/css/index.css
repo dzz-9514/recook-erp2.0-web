@@ -1,0 +1,20 @@
+@import "./font.css";
+@import "./layout.css";
+@import "./padding.css";
+@import "./margin.css";
+@import "./other.css";
+@import "./border.css";
+@import "./color.css";
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.lx-search{
+  margin: 10px 10px;
+}
+.lx-rbox{
+  margin: 10px 0;
+}

@@ -1,0 +1,43 @@
+.cu-p {
+    cursor: pointer;
+}
+.cu-d {
+    cursor: default;
+}
+
+.o-h {
+    overflow: hidden;
+}
+.oy-s {
+    overflow-y: scroll;
+}
+
+.ox-s {
+    overflow-x: scroll;
+}
+.pos-r{
+    position: relative;
+}
+.pos-a{
+    position: absolute;
+}
+.hm-e{
+    overflow: hidden;
+    display: -webkit-box;    
+    -webkit-box-orient: vertical;    
+    -webkit-line-clamp: 1;
+}
+.el-drawer__header{
+    border-bottom: 1px solid #E7E7E7;
+    padding-bottom: 20px !important;
+    color: #000 !important;
+}
+.el-form-item__label{
+    color: #000 !important;
+}
+.c-8C8C8C{
+    color: #8C8C8C;
+}
+.c-1890FF{
+    color: #1890FF;
+}
